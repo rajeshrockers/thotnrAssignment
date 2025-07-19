@@ -1,0 +1,217 @@
+body {
+  overflow: hidden;
+  background-color: #232b38;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-app {
+  width: 50%;
+  height: 625px;
+  max-width: 500px;
+}
+
+.header-section {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.header-box {
+  text-align: center;
+  padding: 6px;
+  color: white;
+  background-color: #00b5cb;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.loan-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.loan-container h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+#loan-input {
+  width: inherit;
+  text-align: center;
+  padding: 0.4rem;
+  background-color: #e6e7e8;
+  border: 4px solid white;
+  font-size: 18px;
+}
+
+#loan-input:focus {
+  outline: none;
+}
+
+.slider {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.slider input {
+  width: 100%;
+  margin: 0;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+.slider-input::-webkit-slider-runnable-track {
+  height: 5px;
+  background: #00bcd4;
+  border-radius: 2.5px;
+}
+
+.slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 23px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -8.5px;
+  border: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.loan-container-details-box {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5.5px;
+  width: 100%;
+}
+
+.loan-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 93%;
+  height: 47px;
+  padding: 0 5px;
+}
+
+.loan-box p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding-left: 30px;
+  margin: 0;
+  max-width: 117px;
+}
+
+.detail-input {
+  padding: 0.5rem;
+  background-color: #e6e7e8;
+  font-size: 18px;
+  text-align: left;
+  border: none;
+  width: 44%;
+  margin-left: auto;
+}
+
+.detail-input:focus {
+  outline: none;
+}
+
+.compound-interest-section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.compound-interest-section h4 {
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 8px;
+}
+
+.compound-button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+.compound-interest-section button {
+  margin-left: 25px;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.moratorium-button-section button {
+  width: 18.5%;
+}
+
+.interest-count-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92.5%;
+  color: white;
+  background-color: #2e333f;
+  height: 48px;
+  margin-top: 12px;
+  border: 1px solid white;
+  margin: 12px auto;
+  padding: 0 5px;
+}
+
+.calculate-btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  flex-direction: column;
+}
+
+.calculate-btn-section button {
+  background-color: #e7873b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 4px;
+  width: 40%;
+}
+
+.calculate-btn-section p {
+  color: white;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.interest-text {
+  width: 120px;
+  padding-left: 25px;
+  font-size: 0.8rem;
+}
+
+.interest-price {
+  padding-right: 170px;
+}
+
+.active {
+  background-color: #00b5cb;
+}

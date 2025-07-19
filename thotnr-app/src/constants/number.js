@@ -1,0 +1,13 @@
+const NUMBERS = {
+    FIFTEEN_LACK: 1500000,
+    ONE_FIFTY: 150,
+    SEVENTEEN: 17,
+    THIRTY: 30,
+    ZERO: 0,
+    TEN_CRORE: 100000000,
+    HUNDRED: 100,
+    TWELVE: 12,
+    TWENTY_FIVE_THOUSANDS: 25000,
+}
+
+export default NUMBERS
