@@ -24,7 +24,7 @@ function App() {
   };
 
   // this function is used to set input values for loan amount
-  const handleSliderChange = (e) => {
+  const handleInputChange = (e) => {
     const newValue = parseINR(e.target.value);
     if (
       !isNaN(newValue) &&
@@ -121,7 +121,7 @@ function App() {
             type="text"
             min={NUMBERS.ZERO}
             max={NUMBERS.TEN_CRORE}
-            onChange={(e) => handleSliderChange(e)}
+            onChange={(e) => handleInputChange(e)}
             id="loan-input"
             value={formatINR(loanValue)}
             step={NUMBERS.TWENTY_FIVE_THOUSANDS}
